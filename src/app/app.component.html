@@ -1,0 +1,169 @@
+<nz-layout>
+  <nz-header class="fixed-header" style="margin: 20px 0">
+    <div
+      class="toolbar_z"
+      style="
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+      "
+    >
+      <div style="display: flex; gap: 30px; justify-content: center">
+        <div class="menu-item">Services</div>
+        <div class="menu-item">Clients</div>
+        <div class="menu-item">Expertise</div>
+        <div class="menu-item">Location</div>
+        <div class="menu-item">Portfolio</div>
+        <div class="menu-item">Careers</div>
+      </div>
+    </div>
+  </nz-header>
+  <nz-content>
+    <div style="position: relative">
+      <img
+        data-stretch="true"
+        data-component-key="idv1.i.65149c6d5d420f51d6f11bba"
+        data-src="https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg"
+        data-image="https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg"
+        data-image-dimensions="4650x2620"
+        data-image-focal-point="0.5,0.5"
+        alt="Luxury Interior Design"
+        data-load="false"
+        elementtiming="system-image-block"
+        src="https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg"
+        sizes="100vw"
+        style="display: block; object-fit: fill; object-position: 50% 50%"
+        srcset="
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=100w   100w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=300w   300w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=500w   500w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=750w   750w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/6513234ecc2ada24fac444f4/08d9bce6-c503-4c1e-816c-b124e180b767/image-asset.jpeg?format=2500w 2500w
+        "
+        loading="lazy"
+        decoding="async"
+        data-loader="sqs"
+      />
+      <div class="text_overlay animate__animated animate__slideInLeft">
+        We Build Differently...
+      </div>
+    </div>
+
+    <div class="light_fade">
+      <div class="heading_text animate__animated" scrollAnimation>
+        Statistics
+      </div>
+      <div
+        class="statics animate__animated"
+        scrollAnimation
+        style="background: #99673e; padding: 30px"
+      >
+        <nz-row [nzGutter]="16">
+          <nz-col [nzSpan]="12">
+            <nz-card>
+              <nz-statistic
+                [nzValue]="(11.28 | number : '1.0-2')!"
+                [nzTitle]="'Active'"
+                [nzPrefix]="prefixTplOne"
+                [nzSuffix]="'%'"
+                [nzValueStyle]="{ color: '#3F8600' }"
+              ></nz-statistic>
+              <ng-template #prefixTplOne
+                ><span nz-icon nzType="arrow-up"></span
+              ></ng-template>
+            </nz-card>
+          </nz-col>
+          <nz-col [nzSpan]="12">
+            <nz-card>
+              <nz-statistic
+                [nzValue]="(9.3 | number : '1.0-2')!"
+                [nzTitle]="'Idle'"
+                [nzPrefix]="prefixTplTwo"
+                [nzSuffix]="'%'"
+                [nzValueStyle]="{ color: '#CF1322' }"
+              ></nz-statistic>
+              <ng-template #prefixTplTwo
+                ><span nz-icon nzType="arrow-down"></span
+              ></ng-template>
+            </nz-card>
+          </nz-col>
+        </nz-row>
+      </div>
+    </div>
+
+    <div
+      style="margin: 8% 0; padding: 26px 0 98px 0"
+      class="textured-container"
+    >
+      <div
+        class="heading_text animate__animated"
+        style="margin-bottom: 60px"
+        scrollAnimation
+      >
+        Gallery
+      </div>
+
+      <div class="flex_grow animate__animated" scrollAnimation>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://images.unsplash.com/photo-1575936123452-b67c3203c357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+            alt="Image"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://media.istockphoto.com/id/1474842223/photo/arriving-at-the-doctors-office-shake-hands.webp?b=1&s=170667a&w=0&k=20&c=ZRcp3CInszuMuly14fqV2D8WJcEHFei-NFL_FNna73A="
+            alt="Image"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.webp?b=1&s=170667a&w=0&k=20&c=YQ_j83pg9fB-HWOd1Qur3_kBmG_ot_hZty8pvoFkr6A="
+            alt="Image"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://media.istockphoto.com/id/1318616038/photo/young-business-woman-sleeping-by-closing-laptop-while-working-concept-of-new-normal-burnout.webp?b=1&s=170667a&w=0&k=20&c=_lyvzU4mzVoGJAvpq5TuyhU48QzQIBFtt4VU7xoYGg0="
+            alt="Image"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://media.istockphoto.com/id/1027719302/photo/photographer.webp?b=1&s=170667a&w=0&k=20&c=j2vkQGvYUcRtdpxpUc9AJOkeYUas4f2R1OHNAnmER-8="
+            alt="Image"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            nz-image
+            nzSrc="https://media.istockphoto.com/id/1707951379/photo/smiling-woman-taking-selfie-by-camera.webp?b=1&s=170667a&w=0&k=20&c=wJ4r_Sfq4C1rncXvBMM8iedjIIqD6pZWEIHBRSoRN8k="
+            alt="Image"
+          />
+        </div>
+      </div>
+    </div>
+  </nz-content>
+  <nz-footer class="fixed-footer" style="background: black; padding: 12px">
+    <div
+      style="
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        width: 100%;
+        text-align: center;
+        color: rgb(245, 237, 231);
+      "
+    >
+      Developed And Managed By - Aman Lasgotra
+    </div>
+  </nz-footer>
+</nz-layout>

@@ -1,0 +1,114 @@
+.menu-item {
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+  color: #491c07; /* White text color */
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  color: #420e0e; /* Lighter text color on hover */
+}
+.menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust as needed */
+  width: 100%;
+  height: 2px; /* Adjust thickness of the line */
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+
+.menu-item:hover::after {
+  background-color: black; /* Adjust color as needed */
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Optional: Adjust the width as per your layout */
+  z-index: 1000; /* Optional: Set a higher z-index to ensure the header is on top of other content */
+}
+
+.statics {
+  margin: 3.2% 16%;
+}
+
+.ant-layout-content {
+  background: #fff;
+}
+.light_fade {
+  background: #f7f5f5;
+  width: 100%;
+  padding: 2% 0;
+  margin: 8% 0;
+}
+
+.heading_text {
+  font-size: 62px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  font-weight: bold;
+  color: rgb(60, 36, 6);
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+.ant-layout-header {
+  background: rgba(222, 181, 148, 0.8);
+}
+
+.text_overlay {
+  font-size: 92px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  font-weight: bold;
+  color: rgb(45, 26, 1);
+  position: absolute;
+  top: 16%;
+  left: 10%;
+  width: 62px;
+  line-height: 96px;
+}
+
+.image-container {
+  width: 330px; /* Adjust as needed */
+  height: 220px; /* Adjust as needed */
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1) rotate(-5deg); /* Increase the rotation angle and scale factor as needed */
+}
+.flex_grow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0 16%;
+  justify-content: center;
+}
+
+.textured-container {
+  background: linear-gradient(
+    90deg,
+    rgb(135, 99, 38) 0%,
+    rgb(168, 148, 115) 35%,
+    rgb(231, 230, 221) 100%
+  );
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 4px;
+  width: 100%;
+  z-index: 1000; /* Optional: Set a higher z-index to ensure the header is on top of other content */
+}
